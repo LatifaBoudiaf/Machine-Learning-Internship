@@ -46,3 +46,19 @@ This project uses the [Forest Cover Type dataset](https://www.kaggle.com/dataset
    
    ```bash
    !kaggle datasets download -d uciml/forest-cover-type-dataset
+
+
+### [Task 4: Loan Approval Prediction](https://colab.research.google.com/drive/1IQlbc5OJsHvBHx-ZFXcrN0XAVGaWX_pX?usp=sharing)
+
+#### Dataset for this task
+
+This project uses the [Loan Approval Prediction Dataset](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset) from Kaggle.
+
+#### How to Download
+
+1. Create a `kaggle.json` API token from your Kaggle account.
+2. Upload `kaggle.json` to your Colab session or place it in `~/.kaggle/` locally.
+3. Run the following command to download the dataset:
+   
+   ```bash
+   !kaggle datasets download -d architsharma01/loan-approval-prediction-dataset
