@@ -77,3 +77,18 @@ This project uses the [MovieLens 100K Dataset](https://www.kaggle.com/datasets/p
    
    ```bash
    !kaggle datasets download prajitdatta/movielens-100k-dataset
+
+### [Task 8: Traffic Sign Recognition](https://colab.research.google.com/drive/1xpkhlolPDoiGVb36355MxvlBe6oZor0Z?usp=sharing)
+
+#### Dataset for this task
+
+This project uses the [GTSRB](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) from Kaggle.
+
+#### How to Download
+
+1. Create a `kaggle.json` API token from your Kaggle account.
+2. Upload `kaggle.json` to your Colab session or place it in `~/.kaggle/` locally.
+3. Run the following command to download the dataset:
+   
+   ```bash
+   !kaggle datasets download meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
